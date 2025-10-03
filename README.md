@@ -42,7 +42,7 @@ Crear una página web informativa, accesible y visualmente atractiva que represe
 
 - HTML5
 - CSS3
-- JavaScript (media queries para CSS responsivo)
+- JavaScript (Script)
 
 ---
 
@@ -50,6 +50,6 @@ Crear una página web informativa, accesible y visualmente atractiva que represe
 
 https://francis-gedoz.github.io/Proyecto-Modulo-3/
 
----
+
 
 
