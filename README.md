@@ -1,4 +1,4 @@
-# Landing Page - Ferrante Ciudadanía
+# Landing Page de Negocios
 
 Este proyecto corresponde a una landing page de negocios desarrollada como parte de un ejercicio de diseño web, particularmente enfocado en la oferta de servicios de gestión de doble ciudadanía para personas con ascendencia italiana.
 
@@ -20,19 +20,15 @@ Crear una página web informativa, accesible y visualmente atractiva que represe
 - Navegación amigable con **menú tipo hamburguesa** en dispositivos móviles.
 - Formulario funcional (estructura HTML) para captación de leads vía email.
 - Secciones con contenido relevante sobre:
+  
 
   - La **diáspora italiana**
   - Servicios ofrecidos
   - Beneficios de la ciudadanía italiana
   - Testimonios de clientes
+
   
 - Uso de imágenes optimizadas que refuerzan el mensaje visual.
-
----
-
-## Capturas (opcional)
-
-> Puedes incluir capturas de pantalla si lo deseas, por ejemplo, mostrando la vista desktop y mobile de la landing.
 
 ---
 
