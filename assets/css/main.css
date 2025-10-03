@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a40000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container h2 {
+    font-size: 30px;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+nav a {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+main {
+    background: #4f704f;
+    color: #fff;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 5rem;
+}
+
+main .container {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding-left: 8%;
+}
+
+main p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-left: 8%;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.email-form {
+    display: flex;
+    gap: 10px;
+}
+
+.email-form input, .email-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.email-form input {
+    width: 320px;
+    text-align: center;
+}
+
+.email-form button {
+    background: #a40000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.email-form button:hover {
+    background: #7a0000;
+}
+
+.diaspora {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background: #081f26;
+    color: #fff;
+    border-radius: 10px;
+    max-width: 1020px;
+    margin: 50px auto 2.5rem;
+    overflow: hidden;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.diaspora-texto {
+    flex: 1 1 600px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.diaspora h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.diaspora p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    width: 280px;
+    background: rgb(79, 112, 79);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    border: none;
+}
+
+.cta-button:hover {
+    background: rgb(45, 61, 45);
+}
+
+.migrantes {
+    flex: 1 1 400px;
+    min-height: 300px;
+    position: relative;
+}
+
+.migrantes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#productos, #beneficios {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.productos-grid, .beneficios-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.producto {
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 325px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.beneficio {
+    background: #0f232a;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+}
+
+.beneficio h3 {
+    margin: 15px 0 30px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.beneficio p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.testimonios {
+    max-width: 1020px;
+    padding: 50px 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.testimonios h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #c2c4c6;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 310px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.nombre {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.texto {
+    font-size: 14px;
+    color: #000;
+    line-height: 1.4;
+}
+
+footer {
+    background: #081f26;
+    color: #fff;
+    padding: 40px 20px 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.footer-links a, .menu-inicio a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.footer-links a:hover, .menu-inicio a:hover {
+    color: #fff;
+}
+
+.footer-logo img {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #a40000;
+}
+
+nav.active {
+    display: flex;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+@media (max-width: 600px) {
+    .logo img {
+    height: 40px;
+    }  
+
+    main {
+    flex-direction: column;
+    gap: 0;
+    }
+
+    main .container {
+    padding: 40px 20px;
+    text-align: center;
+    }
+
+    main h1, main p {
+    padding-left: 0;
+    }
+
+    .email-form {
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .email-form input, .email-form button {
+    width: 90%;
+    margin-bottom: 10px;
+    }
+
+    .hero-image img {
+    height: 250px;
+    object-fit: cover;
+    }
+
+    .diaspora {
+    flex-direction: column;
+    }
+
+    .diaspora-texto {
+    padding: 20px;
+    text-align: center;
+    }
+
+    .migrantes {
+    min-height: 250px;
+    }
+
+    .migrantes img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    }
+
+    .beneficio, .producto {
+    width: 100%;
+    padding: 15px;
+    }
+
+    .beneficio h3 {
+    font-size: 18px;
+    }
+
+    .beneficio p {
+    font-size: 16px;
+    }
+
+    .card {
+    max-width: 100%;
+    }
+
+    .footer-content {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .footer-logo img {
+    height: 40px;
+    }
+}
+
+@media (max-width: 867px) {
+    .hamburger {
+    display: block;
+    }
+
+    nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+    }
+
+    nav a {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #a40000;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    }
+
+    .email-form {
+    flex-direction: row;
+    justify-content: center;
+    }
+}
