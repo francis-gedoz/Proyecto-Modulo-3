@@ -46,6 +46,10 @@ Crear una página web informativa, accesible y visualmente atractiva que represe
 
 ---
 
+## Despliegue de GitHub Pages
 
+https://francis-gedoz.github.io/Proyecto-Modulo-3/
+
+---
 
 
