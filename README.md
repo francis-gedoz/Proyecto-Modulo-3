@@ -38,7 +38,7 @@ Crear una página web informativa, accesible y visualmente atractiva que represe
 
 ## Estructura del Proyecto
 
-PROTOTIPADO
+![Prototipado](https://github.com/francis-gedoz/Proyecto-Modulo-3/blob/master/wireframe_visual.png?raw=true)
 
 ---
 
