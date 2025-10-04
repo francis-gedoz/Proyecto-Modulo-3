@@ -8,7 +8,7 @@ Este sitio está inspirado en la alta demanda de trámites de ciudadanía italia
 
 ## Objetivo
 
-Crear una página web informativa, accesible y visualmente atractiva que represente los servicios de una consultora especializada en trámites de **doble ciudadanía italiana**. En este caso específico, sin utilizar frameworks externos como Bootstrap, enfocándose en el uso de **HTML5 semántico** y **CSS puro** para estilizar todos los elementos.
+Crear una página web informativa, accesible y visualmente atractiva que represente los servicios de una consultora especializada en trámites de **doble ciudadanía italiana**, con enfoque en el uso de **HTML5 semántico** y **CSS puro** para estilizar todos los elementos.
 
 ---
 
@@ -34,7 +34,7 @@ Crear una página web informativa, accesible y visualmente atractiva que represe
 
 ## Estructura del Proyecto
 
-![Prototipado](https://github.com/francis-gedoz/Proyecto-Modulo-3/blob/master/wireframe_visual.png?raw=true)
+![Prototipado](https://github.com/francis-gedoz/Proyecto-Modulo-3/blob/master/assets/img/wireframe_visual.png?raw=true)
 
 ---
 
@@ -42,7 +42,7 @@ Crear una página web informativa, accesible y visualmente atractiva que represe
 
 - HTML5
 - CSS3
-- JavaScript (Script)
+- JavaScript (DOM para menú responsivo)
 
 ---
 
