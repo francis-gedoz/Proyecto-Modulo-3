@@ -18,7 +18,7 @@ Crear una página web informativa, accesible y visualmente atractiva que represe
 - Estilos definidos exclusivamente con CSS sin frameworks de terceros.
 - Diseño **responsive** adaptable a distintos tamaños de pantalla.
 - Navegación amigable con **menú tipo hamburguesa** en dispositivos móviles.
-- Formulario funcional (estructura HTML) para captación de leads vía email.
+- Formulario para captación de leads vía email.
 - Secciones con contenido relevante sobre:
   
 
